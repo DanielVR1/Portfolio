@@ -92,4 +92,8 @@ ul{
         columns: 1;
         list-style: none;
     }
+    ul.especial{
+        columns: 3;
+        list-style: none;
+    }
 }
