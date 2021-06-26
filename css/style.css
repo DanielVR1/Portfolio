@@ -68,9 +68,9 @@ ul{
 }
 
 .iconos-lenguajes{
-    padding: 5px;
-    width: 17vh;
-    height: 17vh;
+    padding: 19px;
+    width: 14vh;
+    height: 14vh;
 }
 
 /* efectos logos de lenguajes */
@@ -85,4 +85,11 @@ ul{
   
 .inner:hover img {
     transform: scale(1.1);
+}
+
+@media only screen and (max-width: 500px) {
+    ul{
+        columns: 1;
+        list-style: none;
+    }
 }
